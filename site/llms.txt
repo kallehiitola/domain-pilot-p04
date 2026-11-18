@@ -1,0 +1,19 @@
+# How many recessed lights do i need
+
+> Estimate fixture count from room area, your target illuminance and fixture light output. Compare the minimum count with a simple rectangular grid; this is an early layout estimate.
+
+## Calculator
+- [Open the calculator](https://countwillow.com/): A 5 × 4 m room at 150 lux, 800 lm per fixture and 0.70 utilization gives 6 fixtures and a possible 3 × 2 layout.
+
+## Method
+Multiply room area in square metres by the target in lux to obtain lumens needed on the target plane. Divide by fixture lumens multiplied by the utilization fraction and round up. The grid uses enough rows and columns to cover that count; it may contain more fixtures than the minimum.
+
+## Limits
+The target value is an illustrative input, not a lighting standard. Utilization represents light reaching the target plane and depends on the room and luminaire. Verify spacing, beam angle, glare, installation clearances and electrical requirements with the fixture documentation and a qualified installer. Grid spacing uses half-spacing offsets at the room edges.
+
+## Supporting pages
+- [Method and assumptions](https://countwillow.com/method/)
+- [About, editorial responsibility and privacy](https://countwillow.com/about/)
+
+## Sources
+- [NIST: SI units and measurement](https://www.nist.gov/pml/owm/metric-si/si-units)
