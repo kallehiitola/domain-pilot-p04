@@ -5,6 +5,9 @@
 ## Calculator
 - [Open the calculator](https://countwillow.com/): A 5 × 4 m room at 150 lux, 800 lm per fixture and 0.70 utilization gives 6 fixtures and a possible 3 × 2 layout.
 
+## Guide
+- [How to how many recessed lights do i need](https://countwillow.com/guide/): measurement inputs, formula, assumptions, limits and a worked example.
+
 ## Method
 Multiply room area in square metres by the target in lux to obtain lumens needed on the target plane. Divide by fixture lumens multiplied by the utilization fraction and round up. The grid uses enough rows and columns to cover that count; it may contain more fixtures than the minimum.
 
