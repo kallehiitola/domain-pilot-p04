@@ -1,22 +1,26 @@
 # How many recessed lights do I need?
 
-> Estimate fixture count from room area, your target illuminance and fixture light output. Compare the minimum count with a simple rectangular grid; this is an early layout estimate.
+> Estimate recessed downlight count and balanced rectangular ceiling grid spacing from room area, target foot-candles or lux, fixture lumens, and light utilization.
 
 ## Calculator
-- [Open the calculator](https://countwillow.com/): A 5 × 4 m room at 150 lux, 800 lm per fixture and 0.70 utilization gives 6 fixtures and a possible 3 × 2 layout.
+- [Open the calculator](https://countwillow.com/): US kitchen: a 14 × 12 ft kitchen at 30 fc with 900 lm fixtures and 0.70 utilization needs 8 fixtures in a 4 × 2 grid (3.50 ft × 6.00 ft spacing). Metric: a 5 × 4 m room at 150 lux with 800 lm fixtures and 0.70 utilization needs 6 fixtures in a 3 × 2 grid (1.67 m × 2.00 m spacing).
 
 ## Guide
-- [How to work out how many recessed lights you need](https://countwillow.com/guide/): step-by-step measuring, common mistakes, formula, limits and a worked example.
+- [How to work out how many recessed lights you need](https://countwillow.com/guide/): step-by-step measuring, common mistakes, and ordering checklist.
 
-## Method
-Multiply room area in square metres by the target in lux to obtain lumens needed on the target plane. Divide by fixture lumens multiplied by the utilization fraction and round up. The grid uses enough rows and columns to cover that count; it may contain more fixtures than the minimum.
+## Formula and method
+Minimum fixtures = ceiling((room area × target illuminance) / (fixture lumens × utilization)); Columns = ceiling(sqrt(N × length / width)); Rows = ceiling(N / columns); Spacing = dimension / count.
+
+Multiply room floor area by target illuminance (foot-candles in US units, lux in metric) to calculate lumens required at the working plane. Divide by per-fixture lumens times the utilization fraction and round up. Fit a balanced rectangular grid covering at least that minimum count and report center-to-center spacing.
 
 ## Limits
-The target value is an illustrative input, not a lighting standard. Utilization represents light reaching the target plane and depends on the room and luminaire. Verify spacing, beam angle, glare, installation clearances and electrical requirements with the fixture documentation and a qualified installer. Grid spacing uses half-spacing offsets at the room edges.
+Target values are planning guides, not building-code certifications. Beam angle, ceiling height, glare, cabinet overhangs, joist obstructions, IC/damp ratings, and circuit loads must be verified against fixture datasheets and a qualified electrician.
 
 ## Supporting pages
 - [Method and assumptions](https://countwillow.com/method/)
 - [About, editorial responsibility and privacy](https://countwillow.com/about/)
 
 ## Sources
-- [NIST: SI units and measurement](https://www.nist.gov/pml/owm/metric-si/si-units)
+- [Engineering ToolBox: Recommended light levels by room](https://www.engineeringtoolbox.com/light-level-rooms-d_708.html)
+- [Wikipedia: Recessed light design and spacing](https://en.wikipedia.org/wiki/Recessed_light)
+- [Wikipedia: Foot-candle and lux units](https://en.wikipedia.org/wiki/Foot-candle)

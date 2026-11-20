@@ -1,40 +1,59 @@
 # How many recessed lights do I need?
 
-> Estimate fixture count from room area, your target illuminance and fixture light output. Compare the minimum count with a simple rectangular grid; this is an early layout estimate.
+> Estimate recessed downlight count and balanced rectangular ceiling grid spacing from room area, target foot-candles or lux, fixture lumens, and light utilization.
 
 ## Calculator
-- [Open the calculator](https://countwillow.com/): A 5 × 4 m room at 150 lux, 800 lm per fixture and 0.70 utilization gives 6 fixtures and a possible 3 × 2 layout.
+- [Open the calculator](https://countwillow.com/): US kitchen: a 14 × 12 ft kitchen at 30 fc with 900 lm fixtures and 0.70 utilization needs 8 fixtures in a 4 × 2 grid (3.50 ft × 6.00 ft spacing). Metric: a 5 × 4 m room at 150 lux with 800 lm fixtures and 0.70 utilization needs 6 fixtures in a 3 × 2 grid (1.67 m × 2.00 m spacing).
 
 ## Guide
-- [How to work out how many recessed lights you need](https://countwillow.com/guide/): step-by-step measuring, common mistakes, formula, limits and a worked example.
+- [How to work out how many recessed lights you need](https://countwillow.com/guide/): step-by-step measuring, common mistakes, and ordering checklist.
 
-## Method
-Multiply room area in square metres by the target in lux to obtain lumens needed on the target plane. Divide by fixture lumens multiplied by the utilization fraction and round up. The grid uses enough rows and columns to cover that count; it may contain more fixtures than the minimum.
+## Formula and method
+Minimum fixtures = ceiling((room area × target illuminance) / (fixture lumens × utilization)); Columns = ceiling(sqrt(N × length / width)); Rows = ceiling(N / columns); Spacing = dimension / count.
+
+Multiply room floor area by target illuminance (foot-candles in US units, lux in metric) to calculate lumens required at the working plane. Divide by per-fixture lumens times the utilization fraction and round up. Fit a balanced rectangular grid covering at least that minimum count and report center-to-center spacing.
 
 ## Limits
-The target value is an illustrative input, not a lighting standard. Utilization represents light reaching the target plane and depends on the room and luminaire. Verify spacing, beam angle, glare, installation clearances and electrical requirements with the fixture documentation and a qualified installer. Grid spacing uses half-spacing offsets at the room edges.
+Target values are planning guides, not building-code certifications. Beam angle, ceiling height, glare, cabinet overhangs, joist obstructions, IC/damp ratings, and circuit loads must be verified against fixture datasheets and a qualified electrician.
 
 ## Supporting pages
 - [Method and assumptions](https://countwillow.com/method/)
 - [About, editorial responsibility and privacy](https://countwillow.com/about/)
 
 ## Sources
-- [NIST: SI units and measurement](https://www.nist.gov/pml/owm/metric-si/si-units)
+- [Engineering ToolBox: Recommended light levels by room](https://www.engineeringtoolbox.com/light-level-rooms-d_708.html)
+- [Wikipedia: Recessed light design and spacing](https://en.wikipedia.org/wiki/Recessed_light)
+- [Wikipedia: Foot-candle and lux units](https://en.wikipedia.org/wiki/Foot-candle)
+
+## Typical residential light levels and recessed spacing guide
+
+General residential targets for planning recessed grids. Keep wall-to-first-fixture offset near half the fixture-to-fixture spacing.
+
+| Room type | Target foot-candles | Target lux | Typical downlight output | Rule-of-thumb max spacing |
+| --- | --- | --- | --- | --- |
+| Hallway / foyer | 5–10 fc | 50–100 lux | 600–750 lm | Half ceiling height (~4 ft for 8 ft ceiling) |
+| Bedroom (ambient) | 10–15 fc | 100–150 lux | 650–800 lm | 4–5 ft (1.2–1.5 m) |
+| Living room | 10–20 fc | 100–200 lux | 750–900 lm | 4–6 ft (1.2–1.8 m) |
+| Kitchen (general) | 30–40 fc | 300–400 lux | 800–1,000 lm | 3.5–4.5 ft (1.1–1.4 m) + task lights |
+| Bathroom | 30–50 fc | 300–500 lux | 800–1,000 lm | 3–4 ft (damp/wet rated over shower) |
+| Home office / study | 35–50 fc | 350–500 lux | 900–1,100 lm | 3.5–4.5 ft + desk task lamp |
 
 ## Step by step
-1. Measure the room length and width to find the floor area.
-2. Choose a target light level for how the room is used. Kitchens and work areas usually need more light than bedrooms or living rooms.
-3. Read the light output of one fixture in lumens from its specification sheet.
-4. Set the share of light that reaches the floor or work surface. The calculator default is a planning assumption; a fixture photometric report gives a better figure.
+1. Measure room length and width in feet or meters to find the floor area.
+2. Choose a target illuminance in foot-candles (US) or lux (metric) matching how the room is used—work kitchens need far more light than bedrooms.
+3. Read the delivered lumen rating of one recessed fixture from its product specification sheet rather than relying on wattage.
+4. Set a utilization fraction (commonly 0.65 to 0.75 for typical residential ceilings and walls) to reflect light lost before reaching the working plane.
+5. Check the suggested rectangular grid spacing against your ceiling height; keeping spacing at or below half the ceiling height helps avoid shadowed spots.
 
 ## Common mistakes
-- Choosing the count from a spacing rule alone without checking how much light each fixture gives.
-- Comparing fixtures by watts or "equivalent" watts instead of lumens.
-- Checking only the total. Even with enough light, uneven spacing can leave dark patches between fixtures.
+- Using an old "ceiling height divided by two" spacing rule without checking whether the fixtures actually output enough lumens for the task.
+- Comparing LED downlights by watts or "60W equivalent" marketing copy instead of rated lumens and color temperature.
+- Placing downlights too close to cabinets or too far from kitchen counters, which casts your own shadow over the work surface.
+- Ignoring ceiling joists, insulation-contact (IC) ratings, damp/wet location ratings, and local electrical code requirements.
 
 ## Worked examples
 ### Example 1
-A 5 × 4 m room at 150 lux, 800 lm per fixture and 0.70 utilization gives 6 fixtures and a possible 3 × 2 layout.
+Metric: a 5 × 4 m room at 150 lux with 800 lm fixtures and 0.70 utilization needs 6 fixtures in a 3 × 2 grid (1.67 m × 2.00 m spacing).
 
 ### Example 2
-A 4 × 4 m room at 100 lux with 1,000 lm fixtures and utilization 1 gives a minimum of 2.
+US kitchen: a 14 × 12 ft kitchen at 30 fc with 900 lm fixtures and 0.70 utilization needs 8 fixtures in a 4 × 2 grid (3.50 ft × 6.00 ft spacing).
